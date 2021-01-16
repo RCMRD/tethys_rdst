@@ -1,0 +1,33 @@
+p {
+	color: black;
+	font-size: 30px
+}
+.contentdiv {
+	height: 60%;
+	width: 100%;
+	margin-top: 30px;
+}
+.aboutdiv {
+	width: 60%;
+	height: 100%;
+	background-color: yellow;
+	float: left;
+}
+.paneldiv {
+	width: 39%;
+	height: 100%;
+	margin-left: 10px;
+	display: inline-block;
+	float: right;
+}
+.rowdiv {
+	height: 32%;
+	width: 100%;
+	margin-bottom: 5px;
+	background-color: blue;
+}
+.rowdivbottom {
+	height: 32%;
+	width: 100%;
+	background-color: blue;
+}

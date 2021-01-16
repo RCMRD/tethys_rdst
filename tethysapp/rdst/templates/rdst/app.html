@@ -1,0 +1,21 @@
+{% extends "rdst/base.html" %}
+{% load tethys_gizmos static %}
+
+{% block content_dependent_styles %}
+  {{ block.super }}
+  <link href="{% static 'rdst/css/app.css' %}" rel="stylesheet"/>
+{% endblock %}
+
+{% block scripts %}
+    {{ block.super }}
+<script type="text/javascript"></script>
+{% endblock %}
+
+{% block app_content_override %}
+<div class="plotarea">
+  <p> This is the Map section</p>
+</div>
+<div class="navigationpanel">
+  <p>This is the filtering area</p>
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+.headerdiv {
+	width:100%;
+	height: 15%;
+	background-color: red;
+}
+.footerdiv {
+	height: 15%;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	bottom: 0%;
+}

@@ -1,0 +1,17 @@
+.plotarea {
+	height: 69%;
+	width: 74.5%;
+	background-color: blue;
+	float: left;
+}
+.navigationpanel {
+	height: 69%;
+	width: 24.5%;
+	background-color: green;
+	float: right;
+}
+p {
+	font-size: 30px;
+	color: white;
+	font-weight: 10px
+}
