@@ -9,17 +9,29 @@
 
 {% block app_header_override %}
 <div class="headerdiv">
-  <h1><strong>This is the header Div</strong></h1>
+  <h1>Rangelands Decision Support System</h1>
+  {% url 'rdst:login' as login_url %}
   {% url 'rdst:home' as home_url %}
   <li class="{% if request.path == home_url %}active{% endif %}">
     <button>
       <a href="{{ home_url }}">Home</a>
     </button>
   </li>
-
+  <li class="{% if request.path == login_url %}active{% endif %}">
+    <button>
+      <a href="{{ login_url }}">Login</a>
+    </button>
+  </li>
 </div>
 <div class=footerdiv>
-  <p style="color:white; font-size: 40px;"> Footer area will be here</p>
+  <div class="footertext">
+  <p> Footer area will be here</p>
+  </div>
+  <div class="footerlogos">
+    <img src="{% static 'rdst/images/rcmrd_logo.png' %}" alt="RCMRD" width="100px" height="100px">
+    <img src="{% static 'rdst/images/servirlogo.png' %}" alt="Servir Eastern and Southern Africa" width="400px" height="60px">
+    <img src="{% static 'rdst/images/nasa_logo.png' %}" alt="NASA" width="100px" height="100px">
+  </div>
 </div>
 {% endblock %}
 

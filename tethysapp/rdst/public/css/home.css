@@ -1,16 +1,22 @@
 p {
 	color: black;
-	font-size: 30px
+	font-size: 13.5px;
+	font-family: "Serif", serif, monospace;
+	text-align: justify;
+	margin:10px;
+}
+h3 {
+	text-align: justify;
+	margin: 10px;
 }
 .contentdiv {
-	height: 60%;
+	height: 67%;
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .aboutdiv {
 	width: 60%;
 	height: 100%;
-	background-color: yellow;
 	float: left;
 }
 .paneldiv {
@@ -21,13 +27,13 @@ p {
 	float: right;
 }
 .rowdiv {
-	height: 32%;
+	height: 32.4%;
 	width: 100%;
 	margin-bottom: 5px;
 	background-color: blue;
 }
 .rowdivbottom {
-	height: 32%;
+	height: 32.4%;
 	width: 100%;
 	background-color: blue;
 }

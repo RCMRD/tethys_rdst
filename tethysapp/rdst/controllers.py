@@ -22,3 +22,8 @@ def app(request):
 
     return render(request, 'rdst/app.html', context)
 
+def login(request):
+    context = {
+    }
+
+    return render(request, 'rdst/login.html', context)

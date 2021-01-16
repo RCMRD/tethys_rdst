@@ -34,6 +34,11 @@ class Rdst(TethysAppBase):
                 url='home',
                 controller='rdst.controllers.home'
             ),
+            UrlMap(
+                name='login',
+                url='login',
+                controller='rdst.controllers.login'
+            ),
         )
 
         return url_maps
