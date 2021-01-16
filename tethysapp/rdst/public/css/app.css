@@ -1,11 +1,20 @@
+.app-content-wrapper{
+	max-height: 800px;
+}
+.contentarea {
+	height: 85%;
+}
+.headerdiv {
+	height: 15%;
+}
 .plotarea {
-	height: 69%;
+	height: 100%;
 	width: 74.5%;
 	background-color: blue;
 	float: left;
 }
 .navigationpanel {
-	height: 69%;
+	height: 100%;
 	width: 24.5%;
 	background-color: green;
 	float: right;
@@ -14,4 +23,7 @@ p {
 	font-size: 30px;
 	color: white;
 	font-weight: 10px
+}
+.footerdiv {
+	display: none;
 }
