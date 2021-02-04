@@ -43,3 +43,8 @@ button {
 img {
 	margin-right: 10px;
 }
+
+/* Remove padding on bottom where app-actions section used to be */
+#app-content-wrapper #app-content {
+    padding-bottom: 0;
+}
